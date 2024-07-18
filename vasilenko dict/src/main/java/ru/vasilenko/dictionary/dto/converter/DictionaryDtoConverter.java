@@ -29,25 +29,10 @@ public class DictionaryDtoConverter {
         dictionaryDto.setId(dictionaryEntity.getUuid());
         dictionaryDto.setCode(dictionaryEntity.getCode());
         dictionaryDto.setDescription(dictionaryEntity.getDescription());
-        dictionaryDto.setDatas(convertDatasToDto(dataEntities));
 
         return dictionaryDto;
     }
 
-    private static List<DataDto> convertDatasToDto (List<DataEntity> dataEntities){
-        List<DataDto> res = new ArrayList<>();
 
-        dataEntities.forEach(element-> {
-            DataDto dataDto = new DataDto();
-
-            dataDto.setDictionary_id(element.getDictionary().getUuid());
-            dataDto.setCode(element.getCode());
-            dataDto.setId(element.getUuid());
-            dataDto.setValue(element.getValue());
-
-            res.add(dataDto);
-        });
-
-        return res;
-    }
 }
+

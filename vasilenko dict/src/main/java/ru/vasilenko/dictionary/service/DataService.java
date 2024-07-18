@@ -32,7 +32,6 @@ public class DataService {
                 createUpdateDataDto.getValue()
         );
         var savedEntity = dataRepository.save(entity);
-        dictionaryService.save(dictionary);
         return new DataDto(
                 savedEntity.getUuid(),
                 savedEntity.getDictionary().getUuid(),

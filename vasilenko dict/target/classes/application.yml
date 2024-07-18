@@ -1,0 +1,15 @@
+spring:
+  liquibase:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/dictionary_db
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    user: postgres
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dictionary_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate

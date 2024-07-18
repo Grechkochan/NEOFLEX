@@ -1,0 +1,17 @@
+ru\vasilenko\dictionary\config\SwaggerConfig.class
+ru\vasilenko\dictionary\repository\DataRepository.class
+ru\vasilenko\dictionary\controller\DictionaryController.class
+ru\vasilenko\dictionary\dto\converter\DictionaryDtoConverter.class
+ru\vasilenko\dictionary\controller\DataController.class
+ru\vasilenko\dictionary\model\DataEntity.class
+ru\vasilenko\dictionary\dto\DataDto.class
+ru\vasilenko\dictionary\dto\CreateUpdateDictionaryDto.class
+ru\vasilenko\dictionary\dto\DictionaryDto.class
+ru\vasilenko\dictionary\service\DictionaryService.class
+ru\vasilenko\dictionary\dto\CreateUpdateDataDto.class
+ru\vasilenko\dictionary\repository\DictionaryRepository.class
+ru\vasilenko\dictionary\service\DataService.class
+ru\vasilenko\dictionary\exception\DataNotFoundException.class
+ru\vasilenko\dictionary\model\DictionaryEntity.class
+ru\vasilenko\dictionary\exception\DictionaryNotFoundException.class
+ru\vasilenko\dictionary\DictionaryApplication.class

@@ -9,7 +9,7 @@
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ru.panteleeva</groupId>
+	<groupId>ru.vasilenko</groupId>
 	<artifactId>dictionary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
