@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-data-table
+      author: postgres
+      changes:
+        - createTable:
+            tableName: data
+            columns:
+              - column:
+                  name: id
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: data_pkey
+              - column:
+                  name: dictionary_id
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_dictionary_id
+                    references: dictionary(id)
+              - column:
+                  name: code
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: value
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
