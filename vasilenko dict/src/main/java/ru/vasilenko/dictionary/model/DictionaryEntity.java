@@ -22,6 +22,4 @@ public class DictionaryEntity {
     @Column(name = "description")
     private String description;
 
-    @OneToMany(mappedBy = "dictionary")
-    private List<DataEntity> datas;
 }

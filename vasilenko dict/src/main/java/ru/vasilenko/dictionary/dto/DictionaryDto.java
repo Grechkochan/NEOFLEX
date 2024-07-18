@@ -19,6 +19,4 @@ public class DictionaryDto {
     @Schema(description = "Description", example = "All of simple vegetables")
     private String description;
 
-    @Schema(description = "List of datas which connected with current dictionary")
-    private List<DataDto> datas;
 }

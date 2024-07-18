@@ -3,12 +3,12 @@ spring:
     enabled: true
     url: jdbc:postgresql://localhost:5432/dictionary_db
     driver-class-name: org.postgresql.Driver
-    password: 1058
+    password: postgres
     user: postgres
   datasource:
     url: jdbc:postgresql://localhost:5432/dictionary_db
     username: postgres
-    password: 1058
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

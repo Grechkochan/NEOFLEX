@@ -20,6 +20,6 @@ public class DataDto {
     @Schema(description = "Code of current data", example = "FRONTEND_DEVELOPER")
     private String code;
 
-    @Schema(description = "Value of current data", example = "Valeria")
+    @Schema(description = "Value of current data", example = "Oleg")
     private String value;
 }

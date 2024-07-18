@@ -15,7 +15,7 @@ import java.util.UUID;
 
 @Tag(name = "Data controller", description = "Creation and updating datas")
 @RestController
-@RequestMapping("dictionary/data")
+@RequestMapping("/data")
 @RequiredArgsConstructor
 public class DataController {
 
