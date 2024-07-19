@@ -7,6 +7,7 @@ import ru.vasilenko.dictionary.dto.CreateUpdateDataDto;
 import ru.vasilenko.dictionary.dto.DataDto;
 import ru.vasilenko.dictionary.exception.DataNotFoundException;
 import ru.vasilenko.dictionary.exception.DictionaryNotFoundException;
+import ru.vasilenko.dictionary.exception.EntityNotFoundException;
 import ru.vasilenko.dictionary.model.DataEntity;
 import ru.vasilenko.dictionary.repository.DataRepository;
 import ru.vasilenko.dictionary.repository.DictionaryRepository;
@@ -23,10 +24,10 @@ public class DataService {
 
     @Transactional
     public DataDto save(CreateUpdateDataDto createUpdateDataDto){
-        var dictionary = dictionaryService.getDictionaryEntityById(createUpdateDataDto.getDictionaryId());
+        var dictionary = dictionaryService.getDictionaryEntityById(createUpdateDataDto.getDictionaryId().toString());
 
         var entity = new DataEntity(
-                UUID.randomUUID().toString(),
+                UUID.randomUUID(),
                 dictionary,
                 createUpdateDataDto.getCode(),
                 createUpdateDataDto.getValue()
@@ -41,8 +42,8 @@ public class DataService {
         );
     }
 
-    public DataDto getById(String id) {
-        var entity = dataRepository.findById(id)
+    public DataDto getById(UUID id) {
+        var entity = dataRepository.findById(id.toString())
                 .orElseThrow(()->new DataNotFoundException("Данные с id " + id + " не найдены!"));
         return new DataDto(
                 entity.getUuid(),

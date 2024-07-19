@@ -1,6 +1,6 @@
 package ru.vasilenko.dictionary.dto;
 
-
+import java.util.UUID;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -15,5 +15,5 @@ public class CreateUpdateDataDto {
     private String value;
 
     @Schema(example = "8bacaca0-a531-444d-8e92-5979a2d511ea")
-    private String dictionaryId;
+    private UUID dictionaryId;
 }

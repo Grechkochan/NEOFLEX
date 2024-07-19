@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Entity
 @Table(name = "data")
 @Data
@@ -13,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class DataEntity {
     @Id
     @Column(name = "id")
-    private String uuid;
+    private UUID uuid;
 
     @ManyToOne
     @JoinColumn(name = "dictionary_id", referencedColumnName = "id")

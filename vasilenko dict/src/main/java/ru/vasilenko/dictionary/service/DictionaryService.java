@@ -9,6 +9,7 @@ import ru.vasilenko.dictionary.dto.CreateUpdateDictionaryDto;
 import ru.vasilenko.dictionary.dto.DictionaryDto;
 import ru.vasilenko.dictionary.dto.converter.DictionaryDtoConverter;
 import ru.vasilenko.dictionary.exception.DictionaryNotFoundException;
+import ru.vasilenko.dictionary.exception.EntityNotFoundException;
 import ru.vasilenko.dictionary.model.DataEntity;
 import ru.vasilenko.dictionary.model.DictionaryEntity;
 import ru.vasilenko.dictionary.repository.DataRepository;

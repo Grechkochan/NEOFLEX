@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.List;
+import java.util.UUID;
 
 @Entity
 @Table(name = "dictionary")
@@ -14,7 +14,7 @@ import java.util.List;
 public class DictionaryEntity {
     @Id
     @Column(name = "id")
-    private String uuid;
+    private UUID uuid;
 
     @Column(name = "code")
     private String code;

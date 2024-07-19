@@ -30,6 +30,6 @@ public class DataController {
     @Operation(summary = "Get data by id")
     @GetMapping("/{id}")
     public DataDto getById(@PathVariable @Parameter(description = "Data id") UUID id){
-        return dataService.getById(id.toString());
+        return dataService.getById(id);
     }
 }
