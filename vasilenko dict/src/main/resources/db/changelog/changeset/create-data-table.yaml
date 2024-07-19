@@ -15,7 +15,7 @@ databaseChangeLog:
                     primaryKeyName: data_pkey
               - column:
                   name: dictionary_id
-                  type: varchar(50)
+                  type: uuid
                   constraints:
                     nullable: false
                     foreignKeyName: fk_dictionary_id

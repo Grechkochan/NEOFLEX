@@ -1,17 +1,17 @@
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\service\DictionaryService.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\exception\DataNotFoundException.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\CreateUpdateDataDto.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\model\DataEntity.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\DictionaryDto.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\converter\DictionaryDtoConverter.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\config\SwaggerConfig.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\repository\DictionaryRepository.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\service\DataService.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\controller\DictionaryController.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\CreateUpdateDictionaryDto.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\model\DictionaryEntity.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\controller\DataController.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\exception\DictionaryNotFoundException.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\DictionaryApplication.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\repository\DataRepository.java
-D:\Новая папка (3)\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\DataDto.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\DataDto.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\DictionaryDto.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\service\DictionaryService.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\model\DataEntity.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\CreateUpdateDataDto.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\controller\DataController.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\CreateUpdateDictionaryDto.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\dto\converter\DictionaryDtoConverter.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\exception\DataNotFoundException.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\controller\DictionaryController.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\repository\DictionaryRepository.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\service\DataService.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\exception\DictionaryNotFoundException.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\repository\DataRepository.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\model\DictionaryEntity.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\DictionaryApplication.java
+C:\Users\Moris\Downloads\Telegram Desktop\NEOFLEX-main\vasilenko dict\src\main\java\ru\vasilenko\dictionary\config\SwaggerConfig.java

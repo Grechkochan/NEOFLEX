@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories
-@EntityScan("ru.vasilenko.dictionary")
+@EntityScan("ru.vasilenko.dictionary.model")
 public class DictionaryApplication {
 
 	public static void main(String[] args) {

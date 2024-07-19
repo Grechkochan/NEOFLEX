@@ -1,5 +1,5 @@
 databaseChangeLog:
-  - includeAll:
+  - include:
       file: db/changelog/changeset/create-dictionary-table.yaml
-  - includeAll:
+  - include:
       file: db/changelog/changeset/create-data-table.yaml
